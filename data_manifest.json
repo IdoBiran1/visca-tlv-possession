@@ -1,0 +1,224 @@
+{
+ "challenge_repo": {
+  "url": "https://github.com/metrica-sports/more-than-a-hack-2027",
+  "commit": "3de6b60aeabd2475d95879a651d38b72bc4fba00"
+ },
+ "competition": {
+  "source": "the organisers' gated download link (DATA.md in the challenge repo); never redistribute",
+  "root": "MTAH_DATA_DIR, default <challenge repo>/data",
+  "files": {
+   "broadcast/BAR-ATH_broadcast.mp4": {
+    "bytes": 13962360320,
+    "sha256": "3dc2a7d952302d33df69a26e3d8935648015f8d7e1b86bf614436b7009abf9f8"
+   },
+   "broadcast/BAR-ATH_broadcast_atd.txt": {
+    "bytes": 141966465,
+    "sha256": "a71c1c9391e564032446be91ffbd7564205b47966060181532d80a338685e458"
+   },
+   "broadcast/BAR-ATH_broadcast_atd.xml": {
+    "bytes": 64956,
+    "sha256": "53d387bcdef718c2034ee2e05c3036c7edfa3cfcd5bbe8270a43695bd252dbe9"
+   },
+   "broadcast/BAR-ATH_broadcast_homography.csv": {
+    "bytes": 15401635,
+    "sha256": "9ed07e7085bb0f200e171929948ae378cdba760d844bd18266c0b7caa4ba4afb"
+   },
+   "tactical/BAR-ATH_tactical.mp4": {
+    "bytes": 5222307334,
+    "sha256": "ff249f072aa7cd89a4a7f603a08f399aa0d34bd429982c847cd4a9373f645f14"
+   },
+   "tactical/BAR-ATH_tactical_atd.txt": {
+    "bytes": 195714285,
+    "sha256": "f130e350d2bfdf734b7e32f072931fccc6d015c1e837d082064875fe0a700431"
+   },
+   "tactical/BAR-ATH_tactical_atd.xml": {
+    "bytes": 59057,
+    "sha256": "327e35e32e46a647389b88f883d4f9a2ab931e3e6148aef2fcf8f22b1e93c43a"
+   },
+   "tactical/BAR-ATH_tactical_homography.csv": {
+    "bytes": 23187043,
+    "sha256": "421c81abe16f0912dc45c2541f9bf19dd5660066397a3dcc043038a1b61c28c3"
+   },
+   "tactical/BAR-ATH_tactical_smart_tagging.xml": {
+    "bytes": 261055,
+    "sha256": "0594d35e3df01b9c5002372d8615e2e8ef5379ac8f4e84c5ef7a53f4304c9019"
+   }
+  }
+ },
+ "external": {
+  "source": "public: IDSSE (CC BY 4.0, figshare 10.6084/m9.figshare.28196177), Metrica sample-data @ e706dd5, SkillCorner opendata (MIT) @ 4340d27, 2 of its 10 matches",
+  "root": "MTAH_EXT, default ~/Github/external_data",
+  "files": {
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 11930,
+    "sha256": "a884728647a564cf8b20e5223a1d04a5da6f6725e1e506c8651505327c197ba9",
+    "url": "https://ndownloader.figshare.com/files/51643475"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 11722,
+    "sha256": "5490286436c86e6f80a538d2b1b379d0efd016e0defcaf594bc59d9ef5079f4c",
+    "url": "https://ndownloader.figshare.com/files/51643472"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 11745,
+    "sha256": "f23b3ee13b988b1ff9a0bce438c416dac47e71355bbc7ee1dab21aaf3e33c18c",
+    "url": "https://ndownloader.figshare.com/files/51643478"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 11952,
+    "sha256": "4c497fac683eee8292901c18ca02c0be1d9609d0b9d4bd8aa092c61f9e0b19e9",
+    "url": "https://ndownloader.figshare.com/files/51643481"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 11922,
+    "sha256": "566dd5e4c86e124ab90fcdba51100881f0436e22afa71832945a451a2d95a420",
+    "url": "https://ndownloader.figshare.com/files/51643487"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 11932,
+    "sha256": "e976aa0c5dba862cfa898ea57ec226efce9d1bc04b23b8d775908db86aa6fa41",
+    "url": "https://ndownloader.figshare.com/files/51643484"
+   },
+   "idsse/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 11823,
+    "sha256": "429b584e89df3e3e8b81f4bd0d004b38bd0b4298bb390b8fb43efccb60963e01",
+    "url": "https://ndownloader.figshare.com/files/51643490"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 776578,
+    "sha256": "6f9741ea62e9dee35b604942e1dad2ac0a4dc3fce14ef2f3858aa12b74dafe00",
+    "url": "https://ndownloader.figshare.com/files/51643493"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 612114,
+    "sha256": "d7fa1d4445e3215eb79ec62fabefa4779b4974e496195c2fdc25624c375a9b9b",
+    "url": "https://ndownloader.figshare.com/files/51643496"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 635747,
+    "sha256": "abc27e3268e6126fb3e6e90bff5cca8d4586a5e0cefe9bd59bf32871e89d8544",
+    "url": "https://ndownloader.figshare.com/files/51643499"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 683018,
+    "sha256": "dbb014df1b80d5c99b7fb806a278432c445a5fdd99f59d379d601f20eaf7e142",
+    "url": "https://ndownloader.figshare.com/files/51643502"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 698898,
+    "sha256": "e440a3adf9a38d3e4ce4289343a59a3b5f76018a78e97c765114f7817591fb3c",
+    "url": "https://ndownloader.figshare.com/files/51643505"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 732186,
+    "sha256": "b79ccc1ee3de5ba662546a9a21304784642d00a791ccc1175550eaa463ea0074",
+    "url": "https://ndownloader.figshare.com/files/51643508"
+   },
+   "idsse/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 681050,
+    "sha256": "31735a2d7b9008c44cae9b6ac43ab38ddeaa435d0416265ec0ebfebf53b3c982",
+    "url": "https://ndownloader.figshare.com/files/51643511"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml": {
+    "bytes": 418524833,
+    "sha256": "d3dd92e509421a6466acb0a083c009035f1751bc5fd9ef42ffa8f20d01cf7d49",
+    "url": "https://ndownloader.figshare.com/files/51643514"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml": {
+    "bytes": 391722803,
+    "sha256": "56ef948961a18e150dba0b7b16869d0008ff66f3050a0c355d31fa5b8ec2fcec",
+    "url": "https://ndownloader.figshare.com/files/51643517"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml": {
+    "bytes": 348945715,
+    "sha256": "ec4dcf30200aad694dea263d5289485fcd0ca42badddaeb7c81f5cd5a4229d4f",
+    "url": "https://ndownloader.figshare.com/files/51643520"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml": {
+    "bytes": 362567859,
+    "sha256": "a228ef0e676d009cefff1580fcb721b53f598454eb120ec347e0a628a3a4646b",
+    "url": "https://ndownloader.figshare.com/files/51643523"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml": {
+    "bytes": 371688499,
+    "sha256": "845202c29ad93d696653436da426a7cdaefb848298e07b7343de6529581671e1",
+    "url": "https://ndownloader.figshare.com/files/51643526"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml": {
+    "bytes": 356219423,
+    "sha256": "cbefcb0bd7f39f3b94ee69a7bc97aac0f936425062c1cc1b144733df36804d6f",
+    "url": "https://ndownloader.figshare.com/files/51643529"
+   },
+   "idsse/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml": {
+    "bytes": 372934140,
+    "sha256": "70b63069189019066fb7e3d9db891122edfe787f3a43ba522ebe45ed89ea0269",
+    "url": "https://ndownloader.figshare.com/files/51643532"
+   },
+   "metrica/data/Sample_Game_1/Sample_Game_1_RawEventsData.csv": {
+    "bytes": 139446,
+    "sha256": "097dda6345e17390dca095331458fd00e47960c480c76f4356fd4edf2575ef05",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawEventsData.csv"
+   },
+   "metrica/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Away_Team.csv": {
+    "bytes": 32782073,
+    "sha256": "0a3df68a92af0290ede472e62de3b6489ddee29223da09bdf0cf76c8e0ab0618",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Away_Team.csv"
+   },
+   "metrica/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Home_Team.csv": {
+    "bytes": 32782961,
+    "sha256": "0a3d0eff7785950379c587d3597b86a2d91c2492281b4652e1abb97c99b6b364",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_1/Sample_Game_1_RawTrackingData_Home_Team.csv"
+   },
+   "metrica/data/Sample_Game_2/Sample_Game_2_RawEventsData.csv": {
+    "bytes": 153897,
+    "sha256": "edf31a18599265b77a8baf150f2ce6d89456fb0324b62ea7a391229657a619ba",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_2/Sample_Game_2_RawEventsData.csv"
+   },
+   "metrica/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Away_Team.csv": {
+    "bytes": 29627711,
+    "sha256": "aa639f40762eade46c389020fe4458266b5ba14027b1e96e22e75db62803718b",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Away_Team.csv"
+   },
+   "metrica/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Home_Team.csv": {
+    "bytes": 31890338,
+    "sha256": "3f9990ac204b07133e4202441d6fcbb386897c7c7f81e1bc3ce4d35bc8644694",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_2/Sample_Game_2_RawTrackingData_Home_Team.csv"
+   },
+   "metrica/data/Sample_Game_3/Sample_Game_3_events.json": {
+    "bytes": 1709486,
+    "sha256": "28a53bfe9eaf32535362335553d517cdce0eabb588af6166009081753751f4e0",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_3/Sample_Game_3_events.json"
+   },
+   "metrica/data/Sample_Game_3/Sample_Game_3_metadata.xml": {
+    "bytes": 81806,
+    "sha256": "009c7dcfcb66192014917ca1559c158f612353e390eafb85f8214b06a1c7dec1",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_3/Sample_Game_3_metadata.xml"
+   },
+   "metrica/data/Sample_Game_3/Sample_Game_3_tracking.txt": {
+    "bytes": 53443115,
+    "sha256": "570e6ce82c2d93bc92723af331d93c31110bec1d6dc0be07c6d44ca3f981d658",
+    "url": "https://raw.githubusercontent.com/metrica-sports/sample-data/e706dd506b360d69d9d123d5b8026e7294b13996/data/Sample_Game_3/Sample_Game_3_tracking.txt"
+   },
+   "skillcorner/data/matches/1874553/1874553_match.json": {
+    "bytes": 33730,
+    "sha256": "e6974e402779d8be44e75bf88ef2a3acfd4d025b87b3fc57f518fa826a645ad8",
+    "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_match.json"
+   },
+   "skillcorner/data/matches/1874553/1874553_tracking_extrapolated.jsonl": {
+    "bytes": 90729279,
+    "sha256": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265",
+    "url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1874553/1874553_tracking_extrapolated.jsonl"
+   },
+   "skillcorner/data/matches/1886347/1886347_match.json": {
+    "bytes": 27541,
+    "sha256": "30c608e78663e9f490b3545479a3ce67b171f418c5133d5609cb249a2466abb2",
+    "url": "https://raw.githubusercontent.com/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1886347/1886347_match.json"
+   },
+   "skillcorner/data/matches/1886347/1886347_tracking_extrapolated.jsonl": {
+    "bytes": 89280839,
+    "sha256": "3577e2803da95390f8b2f85d47829eb55fbbfee6211c94adc65db0dc78e46b41",
+    "url": "https://media.githubusercontent.com/media/SkillCorner/opendata/4340d274572876239c154c90bc507a9b3250a656/data/matches/1886347/1886347_tracking_extrapolated.jsonl"
+   }
+  }
+ }
+}

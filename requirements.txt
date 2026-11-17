@@ -1,0 +1,13 @@
+# Pipeline, pinned: the repo must regenerate the submission exactly (Python 3.12).
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1   # Phase 3 gradient boosting
+torch==2.14.1         # Phase 4 TCN
+floodlight==1.2.0     # IDSSE loader
+kloppy==3.19.1        # Metrica game 3 loader
+
+# EDA and notebooks only
+matplotlib==3.11.2
+jupyterlab
+nbstripout
